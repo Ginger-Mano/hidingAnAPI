@@ -21,7 +21,7 @@ class App extends Component {
   }
   render() {
     console.log(this.state.weather);
-    let triStateWeather = this.state.weather.map(weather => <Forecast weather={weather}/>)
+    let triStateWeather = this.state.weather.map(weather => <Forecast weather={weather} key={weather.id}/>)
   return (
     <div className="App">
      <h2>hello</h2>
