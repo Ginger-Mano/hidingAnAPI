@@ -28,8 +28,10 @@ class App extends Component {
         <div >
           <Paratest />
         </div>
-        <div className="moving">
-          <h2 className="textmov">Move</h2></div>
+        <div class="container">
+          <div className="slide slide-two">
+          </div>
+        </div>
         <h2>hello</h2>
         <p>{triStateWeather}</p>
       </div>
