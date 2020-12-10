@@ -25,15 +25,30 @@ class App extends Component {
     let triStateWeather = this.state.weather.map(weather => <Forecast weather={weather} key={weather.id} />)
     return (
       <div className="App">
+
         <div >
           <Paratest />
         </div>
-        <div class="container">
+
+        <div className="container">
+
           <div className="slide slide-two">
           </div>
+          <div className="slide slide-one">
+          </div>
+          <div className="slide slide-three">
+          </div>
+
+          <div className="slide words">
+            My portfolio is going to be dope.
+          </div>
+
         </div>
-        <h2>hello</h2>
-        <p>{triStateWeather}</p>
+        <div>
+          <h2>hello</h2>
+          <p>{triStateWeather}</p>
+        </div>
+
       </div>
     )
   }
