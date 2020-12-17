@@ -100,7 +100,7 @@
   z-index: 3;
   top: 90px;
   right: -830px;
-  
+
   /* for word wrap ability set width then wrap */
   width: 300px; 
   word-wrap: break-word;
@@ -151,6 +151,12 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.canvas {
+  height: 500px;
+  width: 1000px;
+  border: 1px solid #000000;
 }
 	
 	

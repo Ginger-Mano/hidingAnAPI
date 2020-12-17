@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Forecast from "./Forecast"
 import './App.css';
 import Paratest from "./paratest"
+import Hover from "./Hover"
 
 class App extends Component {
   state = {
@@ -40,7 +41,8 @@ class App extends Component {
           </div>
 
           <div className="slide words">
-            My portfolio is going to be dope.
+            My portfolio is going
+            to be dope.
           </div>
 
         </div>
@@ -48,6 +50,8 @@ class App extends Component {
           <h2>hello</h2>
           <p>{triStateWeather}</p>
         </div>
+
+        <Hover />
 
       </div>
     )
